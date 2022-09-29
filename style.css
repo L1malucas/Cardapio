@@ -5,6 +5,10 @@
 }
 
 body{
+    background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: #ffedd5;
     font-family: 'Roboto', sans-serif;
 }
@@ -36,16 +40,16 @@ header p {
     color: rgba(0,0,0,0.7); 
 }
 
-header h1 span {
+/* header h1 span {
     color: #995000;
-}
+} */
     /*SECTION*/
 section {
     margin-bottom: 24px;
 }
 
 section h2 {
-    background-color: #fed7aa;
+    background-color: #dedede;
     padding: 8px 16px;
     text-align: center;
     font-size: 18px;
@@ -67,10 +71,11 @@ li.details {
     font-size: 16px;
     margin-bottom: 8px;
     line-height: 19px;
+    color: black;
 }
 
 .details p {
-    color: rgba(0,0,0,0.6);
+    color: #fafafa;
     font-size: 14px;
     line-height: 21px;
 }
@@ -78,7 +83,6 @@ li.details {
 /*FONTS*/
 
 h1, h2, h3, .price{
-    color: #2d2c2a;
-    font-family: 'Roboto Serif', serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
